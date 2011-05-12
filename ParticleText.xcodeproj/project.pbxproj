@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FA20B5137B7F5600119A80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B4137B7F5600119A80 /* UIKit.framework */; };
+		80FA20B7137B7F5600119A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B6137B7F5600119A80 /* Foundation.framework */; };
+		80FA20B9137B7F5600119A80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B8137B7F5600119A80 /* CoreGraphics.framework */; };
+		80FA20BF137B7F5600119A80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20BD137B7F5600119A80 /* InfoPlist.strings */; };
+		80FA20C2137B7F5600119A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20C1137B7F5600119A80 /* main.m */; };
+		80FA20C5137B7F5600119A80 /* ParticleTextAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */; };
+		80FA20C8137B7F5600119A80 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20C6137B7F5600119A80 /* MainWindow.xib */; };
+		80FA20CB137B7F5600119A80 /* ParticleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */; };
+		80FA20CE137B7F5600119A80 /* ParticleTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80FA20B0137B7F5600119A80 /* ParticleText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA20B4137B7F5600119A80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80FA20B6137B7F5600119A80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80FA20B8137B7F5600119A80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */ = {isa = PBXFileReference; path = "ParticleText-Info.plist"; sourceTree = "<group>"; };
+		80FA20BE137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80FA20C0137B7F5600119A80 /* ParticleText-Prefix.pch */ = {isa = PBXFileReference; path = "ParticleText-Prefix.pch"; sourceTree = "<group>"; };
+		80FA20C1137B7F5600119A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */ = {isa = PBXFileReference; path = ParticleTextAppDelegate.h; sourceTree = "<group>"; };
+		80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleTextAppDelegate.m; sourceTree = "<group>"; };
+		80FA20C7137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */ = {isa = PBXFileReference; path = ParticleTextViewController.h; sourceTree = "<group>"; };
+		80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleTextViewController.m; sourceTree = "<group>"; };
+		80FA20CD137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParticleTextViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FA20AD137B7F5600119A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA20B5137B7F5600119A80 /* UIKit.framework in Frameworks */,
+				80FA20B7137B7F5600119A80 /* Foundation.framework in Frameworks */,
+				80FA20B9137B7F5600119A80 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FA20A5137B7F5500119A80 = {
+			isa = PBXGroup;
+			children = (
+				80FA20BA137B7F5600119A80 /* ParticleText */,
+				80FA20B3137B7F5600119A80 /* Frameworks */,
+				80FA20B1137B7F5600119A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FA20B1137B7F5600119A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20B0137B7F5600119A80 /* ParticleText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FA20B3137B7F5600119A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20B4137B7F5600119A80 /* UIKit.framework */,
+				80FA20B6137B7F5600119A80 /* Foundation.framework */,
+				80FA20B8137B7F5600119A80 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80FA20BA137B7F5600119A80 /* ParticleText */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */,
+				80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */,
+				80FA20C6137B7F5600119A80 /* MainWindow.xib */,
+				80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */,
+				80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */,
+				80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */,
+				80FA20BB137B7F5600119A80 /* Supporting Files */,
+			);
+			path = ParticleText;
+			sourceTree = "<group>";
+		};
+		80FA20BB137B7F5600119A80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */,
+				80FA20BD137B7F5600119A80 /* InfoPlist.strings */,
+				80FA20C0137B7F5600119A80 /* ParticleText-Prefix.pch */,
+				80FA20C1137B7F5600119A80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FA20AF137B7F5600119A80 /* ParticleText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FA20D1137B7F5600119A80 /* Build configuration list for PBXNativeTarget "ParticleText" */;
+			buildPhases = (
+				80FA20AC137B7F5600119A80 /* Sources */,
+				80FA20AD137B7F5600119A80 /* Frameworks */,
+				80FA20AE137B7F5600119A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleText;
+			productName = ParticleText;
+			productReference = 80FA20B0137B7F5600119A80 /* ParticleText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FA20A7137B7F5500119A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Auerhaus Development, LLC";
+			};
+			buildConfigurationList = 80FA20AA137B7F5600119A80 /* Build configuration list for PBXProject "ParticleText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80FA20A5137B7F5500119A80;
+			productRefGroup = 80FA20B1137B7F5600119A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FA20AF137B7F5600119A80 /* ParticleText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FA20AE137B7F5600119A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA20BF137B7F5600119A80 /* InfoPlist.strings in Resources */,
+				80FA20C8137B7F5600119A80 /* MainWindow.xib in Resources */,
+				80FA20CE137B7F5600119A80 /* ParticleTextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FA20AC137B7F5600119A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA20C2137B7F5600119A80 /* main.m in Sources */,
+				80FA20C5137B7F5600119A80 /* ParticleTextAppDelegate.m in Sources */,
+				80FA20CB137B7F5600119A80 /* ParticleTextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80FA20BD137B7F5600119A80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FA20BE137B7F5600119A80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80FA20C6137B7F5600119A80 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FA20C7137B7F5600119A80 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FA20CD137B7F5600119A80 /* en */,
+			);
+			name = ParticleTextViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FA20CF137B7F5600119A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80FA20D0137B7F5600119A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		80FA20D2137B7F5600119A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParticleText/ParticleText-Prefix.pch";
+				INFOPLIST_FILE = "ParticleText/ParticleText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80FA20D3137B7F5600119A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParticleText/ParticleText-Prefix.pch";
+				INFOPLIST_FILE = "ParticleText/ParticleText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FA20AA137B7F5600119A80 /* Build configuration list for PBXProject "ParticleText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA20CF137B7F5600119A80 /* Debug */,
+				80FA20D0137B7F5600119A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FA20D1137B7F5600119A80 /* Build configuration list for PBXNativeTarget "ParticleText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA20D2137B7F5600119A80 /* Debug */,
+				80FA20D3137B7F5600119A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FA20A7137B7F5500119A80 /* Project object */;
+}
