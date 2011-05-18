@@ -11,8 +11,6 @@
 		807035BB137CF1D700CAC750 /* CoreTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807035B9137CF1D700CAC750 /* CoreTextView.xib */; };
 		807035BE137CF22400CAC750 /* CoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 807035BD137CF22400CAC750 /* CoreTextView.m */; };
 		807035C0137CF24000CAC750 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807035BF137CF24000CAC750 /* CoreText.framework */; };
-		80884E2513837B39000F0C9D /* shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 80884E2313837B39000F0C9D /* shader.fsh */; };
-		80884E2613837B39000F0C9D /* shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 80884E2413837B39000F0C9D /* shader.vsh */; };
 		80884E2D13837B50000F0C9D /* firework-tab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2713837B50000F0C9D /* firework-tab-icon.png */; };
 		80884E2E13837B50000F0C9D /* flame-tab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2813837B50000F0C9D /* flame-tab-icon.png */; };
 		80884E2F13837B50000F0C9D /* flame-tab-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2913837B50000F0C9D /* flame-tab-icon@2x.png */; };
@@ -315,8 +313,6 @@
 				807035BA137CF1D700CAC750 /* CoreTextViewController.m in Sources */,
 				807035BE137CF22400CAC750 /* CoreTextView.m in Sources */,
 				80DC59A3137E2B8500585D15 /* AHParticleSystem2D.m in Sources */,
-				80884E2513837B39000F0C9D /* shader.fsh in Sources */,
-				80884E2613837B39000F0C9D /* shader.vsh in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

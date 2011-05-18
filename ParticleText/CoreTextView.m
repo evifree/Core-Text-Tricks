@@ -83,6 +83,7 @@
 			break;
 	}
 	
+	[attribString release];
 	CFRelease(framesetter);
 }
 
