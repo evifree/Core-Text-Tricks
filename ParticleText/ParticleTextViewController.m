@@ -2,11 +2,17 @@
 //  ParticleTextViewController.m
 //  ParticleText
 //
-//  Created by Warren Moore on 5/11/11.
-//  Copyright 2011 Auerhaus Development, LLC. All rights reserved.
+//	Copyright (c) 2011, Auerhaus Development, LLC
+//
+//	This program is free software. It comes without any warranty, to
+//	the extent permitted by applicable law. You can redistribute it
+//	and/or modify it under the terms of the Do What The Fuck You Want
+//	To Public License, Version 2, as published by Sam Hocevar. See
+//	http://sam.zoy.org/wtfpl/COPYING for more details.
 //
 
 #import "ParticleTextViewController.h"
+#import "ParticleTextView.h"
 
 @implementation ParticleTextViewController
 
@@ -25,13 +31,15 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	
 }
-*/
+
+- (void)viewDidAppear:(BOOL)animated {
+	[(ParticleTextView *)self.view beginDrawLoop];
+}
 
 - (void)viewDidUnload
 {
@@ -42,8 +50,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end

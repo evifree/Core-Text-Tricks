@@ -1,6 +1,6 @@
 //
-//  main.m
-//  ParticleText
+//  Shader.fsh
+//  OpenGLESTest
 //
 //	This program is free software. It comes without any warranty, to
 //	the extent permitted by applicable law. You can redistribute it
@@ -9,12 +9,12 @@
 //	http://sam.zoy.org/wtfpl/COPYING for more details.
 //
 
-#import <UIKit/UIKit.h>
+varying mediump vec4 v_color;
+varying mediump vec2 v_texCoords;
 
-int main(int argc, char *argv[])
+uniform sampler2D u_texture;
+
+void main()
 {
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	int retVal = UIApplicationMain(argc, argv, nil, nil);
-	[pool release];
-	return retVal;
+	gl_FragColor = vec4(v_color.rgb, texture2D(u_texture, v_texCoords).a);
 }

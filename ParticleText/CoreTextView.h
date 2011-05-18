@@ -1,6 +1,8 @@
 //
-//  main.m
+//  CoreTextView.h
 //  ParticleText
+//
+//	Copyright (c) 2011, Auerhaus Development, LLC
 //
 //	This program is free software. It comes without any warranty, to
 //	the extent permitted by applicable law. You can redistribute it
@@ -10,11 +12,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
-int main(int argc, char *argv[])
-{
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	int retVal = UIApplicationMain(argc, argv, nil, nil);
-	[pool release];
-	return retVal;
+@interface CoreTextView : UIView {
 }
+
+@property(nonatomic, retain) NSString *text;
+@property(nonatomic, assign) NSInteger columnCount;
+@property(nonatomic, assign) NSInteger fontSize;
+@property(nonatomic, assign) CTTextAlignment textAlignment;
+
+@end

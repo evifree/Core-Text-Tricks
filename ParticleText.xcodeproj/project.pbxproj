@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807035BA137CF1D700CAC750 /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807035B8137CF1D700CAC750 /* CoreTextViewController.m */; };
+		807035BB137CF1D700CAC750 /* CoreTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807035B9137CF1D700CAC750 /* CoreTextView.xib */; };
+		807035BE137CF22400CAC750 /* CoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 807035BD137CF22400CAC750 /* CoreTextView.m */; };
+		807035C0137CF24000CAC750 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807035BF137CF24000CAC750 /* CoreText.framework */; };
+		80884E2513837B39000F0C9D /* shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 80884E2313837B39000F0C9D /* shader.fsh */; };
+		80884E2613837B39000F0C9D /* shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 80884E2413837B39000F0C9D /* shader.vsh */; };
+		80884E2D13837B50000F0C9D /* firework-tab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2713837B50000F0C9D /* firework-tab-icon.png */; };
+		80884E2E13837B50000F0C9D /* flame-tab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2813837B50000F0C9D /* flame-tab-icon.png */; };
+		80884E2F13837B50000F0C9D /* flame-tab-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2913837B50000F0C9D /* flame-tab-icon@2x.png */; };
+		80884E3013837B50000F0C9D /* hello-tab-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2A13837B50000F0C9D /* hello-tab-icon.png */; };
+		80884E3113837B50000F0C9D /* hello-tab-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2B13837B50000F0C9D /* hello-tab-icon@2x.png */; };
+		80884E3213837B50000F0C9D /* smoke_particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 80884E2C13837B50000F0C9D /* smoke_particle.png */; };
+		80983F6F137C585000D11E89 /* AHParticle2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 80983F6E137C585000D11E89 /* AHParticle2D.m */; };
+		80983F72137C6E1300D11E89 /* ParticleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80983F71137C6E1300D11E89 /* ParticleTextView.m */; };
+		80983F74137C6E4600D11E89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80983F73137C6E4600D11E89 /* OpenGLES.framework */; };
+		80983F76137C753F00D11E89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80983F75137C753F00D11E89 /* QuartzCore.framework */; };
+		80B65A36137C324100D87A5E /* AHColorUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 80B65A34137C324100D87A5E /* AHColorUtilities.c */; };
+		80DC59A3137E2B8500585D15 /* AHParticleSystem2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DC59A2137E2B8500585D15 /* AHParticleSystem2D.m */; };
 		80FA20B5137B7F5600119A80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B4137B7F5600119A80 /* UIKit.framework */; };
 		80FA20B7137B7F5600119A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B6137B7F5600119A80 /* Foundation.framework */; };
 		80FA20B9137B7F5600119A80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FA20B8137B7F5600119A80 /* CoreGraphics.framework */; };
@@ -15,24 +33,52 @@
 		80FA20C5137B7F5600119A80 /* ParticleTextAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */; };
 		80FA20C8137B7F5600119A80 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20C6137B7F5600119A80 /* MainWindow.xib */; };
 		80FA20CB137B7F5600119A80 /* ParticleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */; };
-		80FA20CE137B7F5600119A80 /* ParticleTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */; };
+		80FA20CE137B7F5600119A80 /* ParticleTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FA20CC137B7F5600119A80 /* ParticleTextView.xib */; };
+		80FA20D6137B82A100119A80 /* AHLinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FA20D5137B82A100119A80 /* AHLinearGradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		807035B7137CF1D700CAC750 /* CoreTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextViewController.h; sourceTree = "<group>"; };
+		807035B8137CF1D700CAC750 /* CoreTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
+		807035B9137CF1D700CAC750 /* CoreTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreTextView.xib; sourceTree = "<group>"; };
+		807035BC137CF22400CAC750 /* CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextView.h; sourceTree = "<group>"; };
+		807035BD137CF22400CAC750 /* CoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextView.m; sourceTree = "<group>"; };
+		807035BF137CF24000CAC750 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		80884E2313837B39000F0C9D /* shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.fsh; path = ParticleText/shader.fsh; sourceTree = "<group>"; };
+		80884E2413837B39000F0C9D /* shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.vsh; path = ParticleText/shader.vsh; sourceTree = "<group>"; };
+		80884E2713837B50000F0C9D /* firework-tab-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "firework-tab-icon.png"; path = "ParticleText/Images/firework-tab-icon.png"; sourceTree = "<group>"; };
+		80884E2813837B50000F0C9D /* flame-tab-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flame-tab-icon.png"; path = "ParticleText/Images/flame-tab-icon.png"; sourceTree = "<group>"; };
+		80884E2913837B50000F0C9D /* flame-tab-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flame-tab-icon@2x.png"; path = "ParticleText/Images/flame-tab-icon@2x.png"; sourceTree = "<group>"; };
+		80884E2A13837B50000F0C9D /* hello-tab-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hello-tab-icon.png"; path = "ParticleText/Images/hello-tab-icon.png"; sourceTree = "<group>"; };
+		80884E2B13837B50000F0C9D /* hello-tab-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hello-tab-icon@2x.png"; path = "ParticleText/Images/hello-tab-icon@2x.png"; sourceTree = "<group>"; };
+		80884E2C13837B50000F0C9D /* smoke_particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smoke_particle.png; path = ParticleText/Images/smoke_particle.png; sourceTree = "<group>"; };
+		80983F6D137C585000D11E89 /* AHParticle2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHParticle2D.h; sourceTree = "<group>"; };
+		80983F6E137C585000D11E89 /* AHParticle2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHParticle2D.m; sourceTree = "<group>"; };
+		80983F70137C6E1300D11E89 /* ParticleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleTextView.h; sourceTree = "<group>"; };
+		80983F71137C6E1300D11E89 /* ParticleTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleTextView.m; sourceTree = "<group>"; };
+		80983F73137C6E4600D11E89 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		80983F75137C753F00D11E89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80983F77137C833B00D11E89 /* AHVertexData2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHVertexData2D.h; sourceTree = "<group>"; };
+		80B65A34137C324100D87A5E /* AHColorUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AHColorUtilities.c; sourceTree = "<group>"; };
+		80B65A35137C324100D87A5E /* AHColorUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHColorUtilities.h; sourceTree = "<group>"; };
+		80DC59A1137E2B8500585D15 /* AHParticleSystem2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHParticleSystem2D.h; sourceTree = "<group>"; };
+		80DC59A2137E2B8500585D15 /* AHParticleSystem2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHParticleSystem2D.m; sourceTree = "<group>"; };
 		80FA20B0137B7F5600119A80 /* ParticleText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FA20B4137B7F5600119A80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80FA20B6137B7F5600119A80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80FA20B8137B7F5600119A80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */ = {isa = PBXFileReference; path = "ParticleText-Info.plist"; sourceTree = "<group>"; };
+		80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ParticleText-Info.plist"; path = "ParticleText/ParticleText-Info.plist"; sourceTree = "<group>"; };
 		80FA20BE137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		80FA20C0137B7F5600119A80 /* ParticleText-Prefix.pch */ = {isa = PBXFileReference; path = "ParticleText-Prefix.pch"; sourceTree = "<group>"; };
+		80FA20C0137B7F5600119A80 /* ParticleText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParticleText-Prefix.pch"; sourceTree = "<group>"; };
 		80FA20C1137B7F5600119A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */ = {isa = PBXFileReference; path = ParticleTextAppDelegate.h; sourceTree = "<group>"; };
+		80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleTextAppDelegate.h; sourceTree = "<group>"; };
 		80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleTextAppDelegate.m; sourceTree = "<group>"; };
 		80FA20C7137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */ = {isa = PBXFileReference; path = ParticleTextViewController.h; sourceTree = "<group>"; };
+		80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleTextViewController.h; sourceTree = "<group>"; };
 		80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleTextViewController.m; sourceTree = "<group>"; };
-		80FA20CD137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParticleTextViewController.xib; sourceTree = "<group>"; };
+		80FA20CD137B7F5600119A80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParticleTextView.xib; sourceTree = "<group>"; };
+		80FA20D4137B82A100119A80 /* AHLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHLinearGradient.h; sourceTree = "<group>"; };
+		80FA20D5137B82A100119A80 /* AHLinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHLinearGradient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807035C0137CF24000CAC750 /* CoreText.framework in Frameworks */,
+				80983F76137C753F00D11E89 /* QuartzCore.framework in Frameworks */,
+				80983F74137C6E4600D11E89 /* OpenGLES.framework in Frameworks */,
 				80FA20B5137B7F5600119A80 /* UIKit.framework in Frameworks */,
 				80FA20B7137B7F5600119A80 /* Foundation.framework in Frameworks */,
 				80FA20B9137B7F5600119A80 /* CoreGraphics.framework in Frameworks */,
@@ -49,10 +98,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		807035A9137CE96500CAC750 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80884E1F1383325B000F0C9D /* Images */,
+				80884E2013833261000F0C9D /* Shaders */,
+				80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */,
+				80FA20BD137B7F5600119A80 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		80884E1C13833204000F0C9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80884E22138332B9000F0C9D /* Nibs */,
+				80983F70137C6E1300D11E89 /* ParticleTextView.h */,
+				80983F71137C6E1300D11E89 /* ParticleTextView.m */,
+				807035BC137CF22400CAC750 /* CoreTextView.h */,
+				807035BD137CF22400CAC750 /* CoreTextView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		80884E1E13833224000F0C9D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */,
+				80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */,
+				807035B7137CF1D700CAC750 /* CoreTextViewController.h */,
+				807035B8137CF1D700CAC750 /* CoreTextViewController.m */,
+				80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */,
+				80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		80884E1F1383325B000F0C9D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				80884E2713837B50000F0C9D /* firework-tab-icon.png */,
+				80884E2813837B50000F0C9D /* flame-tab-icon.png */,
+				80884E2913837B50000F0C9D /* flame-tab-icon@2x.png */,
+				80884E2A13837B50000F0C9D /* hello-tab-icon.png */,
+				80884E2B13837B50000F0C9D /* hello-tab-icon@2x.png */,
+				80884E2C13837B50000F0C9D /* smoke_particle.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		80884E2013833261000F0C9D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				80884E2313837B39000F0C9D /* shader.fsh */,
+				80884E2413837B39000F0C9D /* shader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		80884E2113833287000F0C9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				80B65A34137C324100D87A5E /* AHColorUtilities.c */,
+				80B65A35137C324100D87A5E /* AHColorUtilities.h */,
+				80FA20D4137B82A100119A80 /* AHLinearGradient.h */,
+				80FA20D5137B82A100119A80 /* AHLinearGradient.m */,
+				80983F77137C833B00D11E89 /* AHVertexData2D.h */,
+				80983F6D137C585000D11E89 /* AHParticle2D.h */,
+				80983F6E137C585000D11E89 /* AHParticle2D.m */,
+				80DC59A1137E2B8500585D15 /* AHParticleSystem2D.h */,
+				80DC59A2137E2B8500585D15 /* AHParticleSystem2D.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		80884E22138332B9000F0C9D /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				80FA20C6137B7F5600119A80 /* MainWindow.xib */,
+				80FA20CC137B7F5600119A80 /* ParticleTextView.xib */,
+				807035B9137CF1D700CAC750 /* CoreTextView.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
 		80FA20A5137B7F5500119A80 = {
 			isa = PBXGroup;
 			children = (
-				80FA20BA137B7F5600119A80 /* ParticleText */,
+				80FA20BA137B7F5600119A80 /* Classes */,
+				80FA20BB137B7F5600119A80 /* Other Source */,
+				807035A9137CE96500CAC750 /* Resources */,
 				80FA20B3137B7F5600119A80 /* Frameworks */,
 				80FA20B1137B7F5600119A80 /* Products */,
 			);
@@ -69,36 +204,35 @@
 		80FA20B3137B7F5600119A80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				807035BF137CF24000CAC750 /* CoreText.framework */,
 				80FA20B4137B7F5600119A80 /* UIKit.framework */,
 				80FA20B6137B7F5600119A80 /* Foundation.framework */,
 				80FA20B8137B7F5600119A80 /* CoreGraphics.framework */,
+				80983F75137C753F00D11E89 /* QuartzCore.framework */,
+				80983F73137C6E4600D11E89 /* OpenGLES.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		80FA20BA137B7F5600119A80 /* ParticleText */ = {
+		80FA20BA137B7F5600119A80 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				80FA20C3137B7F5600119A80 /* ParticleTextAppDelegate.h */,
-				80FA20C4137B7F5600119A80 /* ParticleTextAppDelegate.m */,
-				80FA20C6137B7F5600119A80 /* MainWindow.xib */,
-				80FA20C9137B7F5600119A80 /* ParticleTextViewController.h */,
-				80FA20CA137B7F5600119A80 /* ParticleTextViewController.m */,
-				80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */,
-				80FA20BB137B7F5600119A80 /* Supporting Files */,
+				80884E1E13833224000F0C9D /* Controllers */,
+				80884E1C13833204000F0C9D /* Views */,
+				80884E2113833287000F0C9D /* Utilities */,
 			);
+			name = Classes;
 			path = ParticleText;
 			sourceTree = "<group>";
 		};
-		80FA20BB137B7F5600119A80 /* Supporting Files */ = {
+		80FA20BB137B7F5600119A80 /* Other Source */ = {
 			isa = PBXGroup;
 			children = (
-				80FA20BC137B7F5600119A80 /* ParticleText-Info.plist */,
-				80FA20BD137B7F5600119A80 /* InfoPlist.strings */,
 				80FA20C0137B7F5600119A80 /* ParticleText-Prefix.pch */,
 				80FA20C1137B7F5600119A80 /* main.m */,
 			);
-			name = "Supporting Files";
+			name = "Other Source";
+			path = ParticleText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +287,14 @@
 			files = (
 				80FA20BF137B7F5600119A80 /* InfoPlist.strings in Resources */,
 				80FA20C8137B7F5600119A80 /* MainWindow.xib in Resources */,
-				80FA20CE137B7F5600119A80 /* ParticleTextViewController.xib in Resources */,
+				80FA20CE137B7F5600119A80 /* ParticleTextView.xib in Resources */,
+				807035BB137CF1D700CAC750 /* CoreTextView.xib in Resources */,
+				80884E2D13837B50000F0C9D /* firework-tab-icon.png in Resources */,
+				80884E2E13837B50000F0C9D /* flame-tab-icon.png in Resources */,
+				80884E2F13837B50000F0C9D /* flame-tab-icon@2x.png in Resources */,
+				80884E3013837B50000F0C9D /* hello-tab-icon.png in Resources */,
+				80884E3113837B50000F0C9D /* hello-tab-icon@2x.png in Resources */,
+				80884E3213837B50000F0C9D /* smoke_particle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +308,15 @@
 				80FA20C2137B7F5600119A80 /* main.m in Sources */,
 				80FA20C5137B7F5600119A80 /* ParticleTextAppDelegate.m in Sources */,
 				80FA20CB137B7F5600119A80 /* ParticleTextViewController.m in Sources */,
+				80FA20D6137B82A100119A80 /* AHLinearGradient.m in Sources */,
+				80B65A36137C324100D87A5E /* AHColorUtilities.c in Sources */,
+				80983F6F137C585000D11E89 /* AHParticle2D.m in Sources */,
+				80983F72137C6E1300D11E89 /* ParticleTextView.m in Sources */,
+				807035BA137CF1D700CAC750 /* CoreTextViewController.m in Sources */,
+				807035BE137CF22400CAC750 /* CoreTextView.m in Sources */,
+				80DC59A3137E2B8500585D15 /* AHParticleSystem2D.m in Sources */,
+				80884E2513837B39000F0C9D /* shader.fsh in Sources */,
+				80884E2613837B39000F0C9D /* shader.vsh in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +329,7 @@
 				80FA20BE137B7F5600119A80 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ParticleText;
 			sourceTree = "<group>";
 		};
 		80FA20C6137B7F5600119A80 /* MainWindow.xib */ = {
@@ -189,12 +340,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		80FA20CC137B7F5600119A80 /* ParticleTextViewController.xib */ = {
+		80FA20CC137B7F5600119A80 /* ParticleTextView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				80FA20CD137B7F5600119A80 /* en */,
 			);
-			name = ParticleTextViewController.xib;
+			name = ParticleTextView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +430,7 @@
 				80FA20D3137B7F5600119A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

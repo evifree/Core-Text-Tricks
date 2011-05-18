@@ -1,6 +1,6 @@
 //
-//  main.m
-//  ParticleText
+//  Shader.vsh
+//  OpenGLESTest
 //
 //	This program is free software. It comes without any warranty, to
 //	the extent permitted by applicable law. You can redistribute it
@@ -9,12 +9,20 @@
 //	http://sam.zoy.org/wtfpl/COPYING for more details.
 //
 
-#import <UIKit/UIKit.h>
+attribute vec4 position;
+attribute vec4 color;
+attribute vec2 texCoords;
 
-int main(int argc, char *argv[])
+uniform mat4 u_projectionMatrix;
+
+varying vec4 v_color;
+varying vec2 v_texCoords;
+
+void main()
 {
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	int retVal = UIApplicationMain(argc, argv, nil, nil);
-	[pool release];
-	return retVal;
+	gl_Position = u_projectionMatrix * position;
+
+    v_color = color;
+	
+	v_texCoords = texCoords;
 }
